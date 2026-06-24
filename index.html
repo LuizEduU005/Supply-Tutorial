@@ -8,7 +8,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap');
 
   :root {
-    --red:       #C8102E;
+    --red:       #f70505;
     --red-dark:  #9B0C22;
     --red-light: #F5E6E9;
     --red-mid:   #E8C0C8;
@@ -266,17 +266,17 @@
 <body>
 
 <!-- HEADER -->
-<header>
+<header style="background-color: #ffffff;">
   <div class="logo">
     <img src="logo.png" alt="Logo Hiper Farma" height="60">
     </div>
-    <span class="logo-text">Hiper<span>.</span>Farma</span>
+    <span class="logo-text" style=" color: #f70505">Hiper</style><span> </span>Farma</span> 
   </div>
   <nav>
-    <a href="#passo1">Passo 1</a>
-    <a href="#passo2">Passo 2</a>
-    <a href="#passo3">Passo 3</a>
-    <a href="#passo4">Passo 4</a>
+    <a href="#passo1" style=" color: #000000">Passo 1</a>
+    <a href="#passo2" style=" color: #000000">Passo 2</a>
+    <a href="#passo3" style=" color: #000000">Passo 3</a>
+    <a href="#passo4" style=" color: #000000">Passo 4</a>
   </nav>
 </header>
 
@@ -326,8 +326,8 @@
   </div>
 
   <!-- PASSO 1 -->
-  <div class="step-card" id="passo1">
-    <div class="step-header">
+  <div class="step-card" style="background-color: #ffffff; border: 1px solid #ffffff;" id="passo1">
+    <div class="step-header" style="background: linear-gradient(80deg, #f70505 0%, #f70505 100%);">
       <div class="step-number">1</div>
       <div>
         <div class="step-title">Acesso ao Sistema</div>
@@ -342,7 +342,7 @@
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           Acessar o portal
         </a>
-        <div class="tip-box">
+        <div class="tip-box" style="background-color: #ffffff; border-left: 4px solid #f70505; color: #f70505;">
           <strong>💡 Dica:</strong> Salve o endereço nos favoritos do navegador para facilitar o acesso nas próximas compras.
         </div>
       </div>
@@ -361,8 +361,8 @@
   </div>
 
   <!-- PASSO 2 -->
-  <div class="step-card" id="passo2">
-    <div class="step-header">
+  <div class="step-card" style="background-color: #ffffff; border: 1px solid #ffffff;" id="passo2">
+    <div class="step-header" style="background: linear-gradient(80deg, #f70505 0%, #f70505 100%);">
       <div class="step-number">2</div>
       <div>
         <div class="step-title">Login na Plataforma</div>
@@ -372,12 +372,12 @@
     <div class="step-body">
       <div class="step-text">
         <p>Na tela de login, preencha os campos com as credenciais que foram enviadas para sua loja:</p>
-        <ul class="checklist">
-          <li>No campo <strong>Usuário</strong>, insira o e-mail padrão fornecido pela equipe de suprimentos.</li>
-          <li>No campo <strong>Senha</strong>, insira a senha que foi enviada junto com o e-mail de acesso.</li>
+        <ul class="checklist px">
+          <li><span><span> No campo <strong>Usuário</strong>, insira o e-mail padrão fornecido pela equipe de suprimentos.</li><span></span>
+          <li><span><span> No campo <strong>Senha</strong>, insira a senha que foi enviada junto com o e-mail de acesso.</li>
         </ul>
-        <div class="tip-box">
-          <strong>⚠️ Atenção:</strong> As credenciais são exclusivas de cada loja. Não compartilhe seu acesso com outras unidades da rede.
+        <div class="tip-box" style="background-color: #ffffff; border-left: 4px solid #f70505; color: #f70505;">
+          <strong> Atenção:</strong> As credenciais são exclusivas de cada loja. Não compartilhe seu acesso com outras unidades da rede.
         </div>
       </div>
       <div class="step-video">
@@ -391,8 +391,8 @@
   </div>
 
   <!-- PASSO 3 -->
-  <div class="step-card" id="passo3">
-    <div class="step-header">
+  <div class="step-card" style="background-color: #ffffff; border: 1px solid #ffffff;" id="passo3">
+    <div class="step-header" style="background: linear-gradient(80deg, #f70505 0%, #f70505 100%);">
       <div class="step-number">3</div>
       <div>
         <div class="step-title">Verificação do CNPJ</div>
@@ -420,8 +420,8 @@
   </div>
 
   <!-- PASSO 4 -->
-  <div class="step-card" id="passo4">
-    <div class="step-header">
+  <div class="step-card" style="background-color: #ffffff; border: 1px solid #ffffff;" id="passo3">
+    <div class="step-header" style="background: linear-gradient(80deg, #f70505 0%, #f70505 100%);">
       <div class="step-number">4</div>
       <div>
         <div class="step-title">Realizando o Pedido</div>
@@ -433,13 +433,13 @@
         <p>Com o acesso confirmado, você será direcionado automaticamente para o <strong>catálogo de produtos</strong>. A partir daqui, o processo é simples e intuitivo:</p>
         <ul class="checklist">
           <li>Navegue pelo catálogo e localize os itens que deseja solicitar (sabão, sacolas, produtos de limpeza, etc.).</li>
-          <li>Defina a <strong>quantidade desejada</strong> de cada item e clique no ícone do carrinho para adicioná-lo.</li>
-          <li>Clique em <strong>"Continuar Comprando"</strong> para voltar ao catálogo e adicionar mais produtos ao pedido.</li>
-          <li>Repita o processo até selecionar todos os itens necessários para a sua loja.</li>
-          <li>Ao finalizar a seleção, revise o carrinho e <strong>confirme o pedido</strong>.</li>
+          <li><span><span>Defina a <strong>quantidade desejada</strong> de cada item e clique no ícone do carrinho para adicioná-lo.</li>
+          <li><span><span> Clique em <strong>"Continuar Comprando"</strong> para voltar ao catálogo e adicionar mais produtos ao pedido.</li>
+          <li><span><span>Repita o processo até selecionar todos os itens necessários para a sua loja.</li>
+          <li><span><span>Ao finalizar a seleção, revise o carrinho e <strong>confirme o pedido</strong>.</li>
         </ul>
-        <div class="tip-box">
-          <strong>✅ Pronto!</strong> Seu pedido de suprimentos foi registrado com sucesso no sistema.
+        <div class="tip-box" style="background-color: #ffffff; border-left: 4px solid #f70505; color: #f70505;">
+          <strong> Pronto!</strong> Seu pedido de suprimentos foi registrado com sucesso no sistema.
         </div>
       </div>
       <div class="step-video">
@@ -453,19 +453,19 @@
   </div>
 
   <!-- FINAL BANNER -->
-  <div class="final-banner">
-    <h2>Pronto para fazer seu primeiro pedido?</h2>
-    <p>Agora que você conhece o processo, acesse a plataforma e mantenha sua loja sempre abastecida.</p>
-    <a href="https://www.corporativosupply.com.br/" target="_blank" class="final-btn">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v14M1 8l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      Acessar o sistema agora
-    </a>
-  </div>
+  <div class="final-banner" style="background: #C8102E;">
+  <h2>Pronto para fazer seu primeiro pedido?</h2>
+  <p>Agora que você conhece o processo, acesse a plataforma e mantenha sua loja sempre abastecida.</p>
+  <a href="https://www.corporativosupply.com.br/" target="_blank" class="final-btn">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v14M1 8l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Acessar o sistema agora
+  </a>
+</div>
 </main>
 
 <!-- FOOTER -->
 <footer>
-  <p><strong>Hiper.Farma</strong> · Setor de Suprimentos · Tutorial de uso da plataforma CorporativoSupply</p>
+  <p><strong>Hiper Farma</strong> · Setor de Suprimentos · Tutorial de uso da plataforma CorporativoSupply</p>
 </footer>
 
 </body>
