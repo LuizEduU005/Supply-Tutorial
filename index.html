@@ -277,6 +277,7 @@
     <a href="#passo2" style=" color: #000000">Passo 2</a>
     <a href="#passo3" style=" color: #000000">Passo 3</a>
     <a href="#passo4" style=" color: #000000">Passo 4</a>
+	<a href="#passo5" style=" color: #000000">Passo 5</a>
   </nav>
 </header>
 
@@ -294,6 +295,7 @@
     <div class="step-pill"><span class="num">2</span> Login</div>
     <div class="step-pill"><span class="num">3</span> Verificação de CNPJ</div>
     <div class="step-pill"><span class="num">4</span> Fazer o pedido</div>
+	<div class="step-pill"><span class="num">5</span> Confirmar o pedido</div>
   </div>
 </section>
 
@@ -323,6 +325,11 @@
       <div class="prog-dot">4</div>
       <div class="prog-label">Realizar pedido</div>
     </div>
+	<div class="prog-line"></div>
+    <div class="prog-step">
+      <div class="prog-dot">5</div>
+      <div class="prog-label">Confirmar o pedido</div>
+	  </div>
   </div>
 
   <!-- PASSO 1 -->
@@ -410,8 +417,8 @@
         </ul>
       </div>
       <div class="step-video">
-        <span class="video-label">Vídeo demonstrativo</span>
-        <video controls autoplay loop muted playsinline>
+        <span class="video-label style= si">Vídeo demonstrativo</span>
+        <video controls autoplay muted playsinline>
           <source src="videos/passo3.mp4" type="video/mp4">
           Seu navegador não suporta o elemento de vídeo.
         </video>
@@ -420,7 +427,7 @@
   </div>
 
   <!-- PASSO 4 -->
-  <div class="step-card" style="background-color: #ffffff; border: 1px solid #ffffff;" id="passo3">
+ <div class="step-card" style="background-color: #ffffff; border: 1px solid #ffffff;" id="passo4">
     <div class="step-header" style="background: linear-gradient(80deg, #f70505 0%, #f70505 100%);">
       <div class="step-number">4</div>
       <div>
@@ -433,13 +440,20 @@
         <p>Com o acesso confirmado, você será direcionado automaticamente para o <strong>catálogo de produtos</strong>. A partir daqui, o processo é simples e intuitivo:</p>
         <ul class="checklist">
           <li>Navegue pelo catálogo e localize os itens que deseja solicitar (sabão, sacolas, produtos de limpeza, etc.).</li>
-          <li><span><span>Defina a <strong>quantidade desejada</strong> de cada item e clique no ícone do carrinho para adicioná-lo.</li>
-          <li><span><span> Clique em <strong>"Continuar Comprando"</strong> para voltar ao catálogo e adicionar mais produtos ao pedido.</li>
-          <li><span><span>Repita o processo até selecionar todos os itens necessários para a sua loja.</li>
-          <li><span><span>Ao finalizar a seleção, revise o carrinho e <strong>confirme o pedido</strong>.</li>
+          <li>Defina a <strong>quantidade desejada</strong> de cada item e clique no ícone do carrinho para adicioná-lo.</li>
+          <li>Clique em <strong>"Continuar Comprando"</strong> para voltar ao catálogo e adicionar mais produtos ao pedido.</li>
+          <li>Repita o processo até selecionar todos os itens necessários para a sua loja.</li>
+          <li>Ao finalizar a seleção, revise o carrinho e <strong>confirme o pedido</strong>.</li>
         </ul>
-        <div class="tip-box" style="background-color: #ffffff; border-left: 4px solid #f70505; color: #f70505;">
-          <strong> Pronto!</strong> Seu pedido de suprimentos foi registrado com sucesso no sistema.
+
+        <div class="tip-box" style="background-color: #ffffff; border-left: 4px solid #ffde21; color: #000000; padding: 10px;">
+          
+          <div style="margin-left: 115px;">
+            <p style="margin-bottom: 5px;"><strong>⚠️ <span style="color:#000000;">ATENÇÃO</span> ⚠️</strong></p>
+            </div>
+            <p style="color:#000000; margin: ;"><strong>CASO ALTERE A QUANTIDADE DE ALGUM ITEM NO CARRINHO, PRESSIONE O BOTÃO RECALCULAR PARA OS NOVOS VALORES SEREM SALVOS NO CARRINHO.</strong></p>
+         
+
         </div>
       </div>
       <div class="step-video">
@@ -450,10 +464,39 @@
         </video>
       </div>
     </div>
+</div>
+<!-- PASSO 5 -->
+  <div class="step-card" style="background-color: #ffffff; border: 1px solid #ffffff;" id="passo5">
+    <div class="step-header" style="background: linear-gradient(80deg, #f70505 0%, #f70505 100%);">
+      <div class="step-number">5</div>
+      <div>
+        <div class="step-title">Confirmação do pedido</div>
+        <div class="step-subtitle">Confirmando que seu pedido está correto</div>
+      </div>
+    </div>
+    <div class="step-body">
+      <div class="step-text">
+        <p>Após montar todo seu carrinho, verificar valores e intes basta confirmar o pedido clicando em fechar pedido.</p>
+        <p>Quando o pedido for confirmado ele ira gerar um número de pedido, esse número de pedido é a confirmação que seu pedido foi realizado com sucesso.</p>
+        <p> Na forma de pagamento deve está "Bloqueto" sendo assim não altere
+      </div>
+      <div class="step-video">
+        <span class="video-label style= si">Vídeo demonstrativo</span>
+        <video controls autoplay muted playsinline>
+          <source src="videos/passo5.mp4" type="video/mp4">
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
   </div>
 
-  <!-- FINAL BANNER -->
-  <div class="final-banner" style="background: #C8102E;">
+
+	<div class = "banner" style="background: #ffffff;">
+	
+  <div class="final-banner" style="background: #f70505;">
   <h2>Pronto para fazer seu primeiro pedido?</h2>
   <p>Agora que você conhece o processo, acesse a plataforma e mantenha sua loja sempre abastecida.</p>
   <a href="https://www.corporativosupply.com.br/" target="_blank" class="final-btn">
@@ -464,9 +507,12 @@
 </main>
 
 <!-- FOOTER -->
-<footer>
-  <p><strong>Hiper Farma</strong> · Setor de Suprimentos · Tutorial de uso da plataforma CorporativoSupply</p>
+<footer style= "background-color: #f70505">
+	<p style=" color: #FCFCFC; text-transform: uppercase;">PRIVACIDADE: Este documento contém informações de uso exclusivo na HIPER FARMA LTDA.
+  Circulação restrita. Proibida reprodução, distribuição ou transmissão sem autorização.</p>
+  <br>
+  <p style= "color: #ffffff">Hiper Farma · Setor de Suprimentos </p>
 </footer>
 
-</body>
+</body> 
 </html>
